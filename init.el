@@ -176,10 +176,13 @@
 (require 'init-local nil t)
 
 
-
 (provide 'init)
 
 ;; Local Variables:
 ;; coding: utf-8
 ;; no-byte-compile: t
 ;; End:
+
+;; CUSTOM INIT SCRIPTS
+(desktop-save-mode 1)
+(menu-bar-mode 1)
